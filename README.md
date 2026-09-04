@@ -1,5 +1,6 @@
 #Topology homology post-processing algorithm for the Kitti autonomous driving dataset
 <img width="928" height="557" alt="image" src="https://github.com/user-attachments/assets/00334fb1-a2b6-46d1-901b-6a07bbba1217" />
+Its function is to automatically detect situations in which obstacles such as railings or severe interference from conditions like heavy rain affect instance segmentation; in such cases, an active restoration framework driven by topological awareness is used to restore those objects that are obscured and need to be detected.
 
 1. TOPICTrack Visual Encoding Module
 Input:
@@ -275,3 +276,6 @@ Enhanced outputs:
 → Boundary operator: homology-enhanced direction field (N×N×2)
 → Delaunay triangulation: curvature-guided point sampling
 → Fibration mapping: algebraic-geometric association matrix (k×N)
+
+For the parents that every child waits for on rainy nights.
+
